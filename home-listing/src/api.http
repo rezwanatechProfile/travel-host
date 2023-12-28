@@ -1,0 +1,49 @@
+# REST CLIENT
+
+# GET All Listings
+GET http://localhost:3001/listings HTTP/1.1
+Content-Type: application/json
+
+###
+
+# CREATE a listing
+POST http://localhost:3001/listings HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Beautiful House",
+  "isAvailable": true,
+  "availableDateFrom": "2023-12-22",
+  "availableDateTo": "2023-12-30",
+  "price": 100,
+  "numberOfRooms": 3,
+  "numberOfBathrooms": 2,
+  "isSingleHouse": true,
+  "isTownHouse": false,
+  "isApartment": false,
+  "isCondo": false,
+  "image": "https://placekitten.com/300/200",
+  "location": "Your Location Here",
+
+}
+
+###
+
+# UPDATE a listing
+PUT http://localhost:3001/listings/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Updated Beautiful House",
+  "price": 120
+}
+
+###
+
+# DELETE a listing
+DELETE http://localhost:3001/listings/1 HTTP/1.1
+Content-Type: application/json
+
+
+
+###

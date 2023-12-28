@@ -1,0 +1,347 @@
+/* index.css */
+
+@import 'react-datepicker/dist/react-datepicker.css';
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* App.css */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #749ec3, #66c0c5);
+}
+
+.app-back {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #749ec3, #66c0c5);
+}
+
+
+.header-div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  width: 3%;
+  height: 2%;
+  margin: 1% 0% 0 1%;
+}
+
+/* header.css */
+
+h1 {
+  font-size: 1em;
+  text-align: center;
+  padding: 20px 5px;
+  color: white;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* You can customize the gradient colors and other styles based on your preference */
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  width: 80%; /* Adjust width as needed */
+}
+
+
+/* HomeCreate.css */
+
+.home-create {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%; /* Adjust width as needed */
+  margin-right: 20px; /* Adjust margin as needed */
+  padding-right: 40px
+}
+
+.home-create h3 {
+  text-align: center;
+  color: #333;
+}
+
+.home-create form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.home-create label,
+.home-create select {
+  margin-top: 10px;
+  color: #555;
+}
+
+.home-create input,
+.home-create input[type="text"],
+.home-create button,
+.home-create select {
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 2px solid gray;
+  width: auto;
+}
+
+/* .home-create input[type='checkbox'] {
+
+} */
+
+input[type="checkbox" i] {
+  width: 25%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.home-create button {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 25px;
+}
+
+.home-create button:hover {
+  background: linear-gradient(to right, #397eba, #00f2fe);
+}
+
+a {
+  text-decoration: none;
+}
+
+.gray-box {
+  background-color: #908e8e;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* HomeEdit.css */
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+select,
+button {
+  margin-bottom: 16px;
+  border: 2px solid gray;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  border: 2px solid gray;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(to right, #397eba, #00f2fe);
+}
+
+/* HomeList.css */
+.home-list-container {
+  padding: 20px;
+  width: 100%;
+}
+
+.home-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 100%;
+
+}
+
+.home-list .listing-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
+.home-list .listing-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.home-list .listing-card p {
+  margin: 0;
+}
+
+
+
+
+/* HomeShow.css */
+.home-show-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.details-container {
+  flex: 2;
+}
+
+.details-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+/* SearchBar.css */
+
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.date-picker-container,
+.location-container {
+  margin-bottom: 20px; 
+  margin-right: 20px;
+}
+
+.location-container label, .date-picker-container label {
+  align-items: center;
+  display: flex;
+}
+
+.date-picker,
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 40px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);;
+  color: #fff;
+  border: 2px solid gray;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #397eba, #00f2fe);
+  border: 2px solid black;
+}
+
+button.disabled {
+  color: gray;
+  cursor: not-allowed;
+  background-color: #333;
+}
+
+
+/* Add media query for smaller screens */
+@media (max-width: 767px) {
+  .content {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .home-create {
+    width: 100%; /* Take full width on smaller screens */
+    margin-right: 0; /* Remove right margin on smaller screens */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+  }
+
+  .home-list-container {
+    flex-direction: column;
+  }
+
+  /* Additional styles for each listing-card on smaller screens */
+  .listing-card {
+    width: 100%; /* Take full width on smaller screens */
+  }
+}
+
+
+@media (max-width: 1330px) {
+
+  .search-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
