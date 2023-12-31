@@ -1,4 +1,0 @@
-[build]
-  base = "travel-host"
-  command = "npm run build"
-  publish = "travel-host/build"
