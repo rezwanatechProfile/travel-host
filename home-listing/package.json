@@ -1,7 +1,6 @@
 {
   "name": "home-listing",
   "version": "0.1.0",
-  "homepage": "https://rezwanatechProfile.github.io/travel-host/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
