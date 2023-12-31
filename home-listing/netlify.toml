@@ -1,4 +1,4 @@
 listing[build]
-  base = "travel-host"
+  base = "home-listing"
   command = "npm run build"
-  publish = "travel-host/home-listing/build"
+  publish = "home-listing/build"
