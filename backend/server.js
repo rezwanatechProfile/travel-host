@@ -43,6 +43,11 @@ app.use(methodOverride("_method"));
 const routes = require('./routes/index')
 app.use('/', routes)
 
+app.get("/", (req, res) => {
+    res.send("Listening..");
+  });
+
+
 // catch route if it doesn't match to anything we will send this response 
 app.use((req, res) => {
 	res.status(404).json({message: "NOT A PROPER ROUTE"})

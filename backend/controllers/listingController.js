@@ -79,10 +79,6 @@ const deleteHome = (req, res) => {
 	})
 }
 
-
-
-
-
 module.exports = {
 	getHomes,
 	createHomes,
