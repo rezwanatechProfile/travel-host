@@ -1,6 +1,5 @@
 
 const express = require('express');
-const router = express.Router()
 const Home = require('../models/listings.js')
 const homeSeed = require('../models/homeSeed.js')
 

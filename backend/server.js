@@ -41,11 +41,13 @@ app.use(methodOverride("_method"));
 // app.use('/', indexController)
 // Use the listingController for routes and pass homeSeed
 const routes = require('./routes/index')
-app.use('/', routes)
+
 
 app.get("/", (req, res) => {
     res.send("Listening..");
   });
+
+app.use('/', routes)
 
 
 // catch route if it doesn't match to anything we will send this response 
