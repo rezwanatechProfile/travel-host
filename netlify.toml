@@ -1,10 +1,7 @@
 [build]
-  command = "npm install && npm run build"
+  command = "npm start"
+  publish = "backend"
 
 [dev]
   command = "npm start" 
 
-[[headers]]
-  for = "/*"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
