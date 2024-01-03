@@ -1,7 +1,0 @@
-[build]
-  command = "npm start"
-  publish = "backend"
-
-[dev]
-  command = "npm start" 
-
